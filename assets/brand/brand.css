@@ -1,0 +1,4 @@
+/* Шапка з логотипом. Джерело: ebb-ios/site/src/assets/brand/brand.css, у ebb-site копіює build.py. */
+.brand { display: inline-flex; align-items: center; gap: 10px; color: var(--accent); }
+.brand-mark { display: block; width: 36px; height: 36px; }
+.brand-word { display: block; height: 30px; width: auto; }
