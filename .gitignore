@@ -1,9 +1,1 @@
-# Draft translations, built by tools/build.py but not published until a native speaker
-# has reviewed them. Set "publish": true in src/site.json and delete the line here.
-/sv/
-/nb/
-/da/
 .DS_Store
-/assets/screens/sv/
-/assets/screens/nb/
-/assets/screens/da/
