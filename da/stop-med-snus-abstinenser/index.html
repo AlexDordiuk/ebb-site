@@ -13,6 +13,8 @@
 <link rel="alternate" hreflang="da" href="https://alexdordiuk.github.io/ebb-site/da/stop-med-snus-abstinenser/">
 <link rel="alternate" hreflang="x-default" href="https://alexdordiuk.github.io/ebb-site/guides/nicotine-pouch-withdrawal-timeline/">
 <meta name="apple-itunes-app" content="app-id=6825811787">
+<meta name="author" content="Oleksandr Dordiuk">
+<meta property="og:locale" content="da_DK">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Ebb">
 <meta property="og:title" content="Stop med snus: abstinenser dag for dag">
@@ -28,7 +30,11 @@
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Ebb">
 <meta name="twitter:card" content="summary_large_image">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Stop med snus: abstinenser dag for dag", "description": "Hvad der sker 20 minutter, 3 døgn, en måned og et år efter din seneste nikotinpose, med en kilde for hvert trin. Skrevet til snus og nikotinposer, ikke cigaretter.", "inLanguage": "da", "datePublished": "2026-10-22", "dateModified": "2026-10-22", "author": {"@type": "Person", "name": "Oleksandr Dordiuk"}, "publisher": {"@type": "Organization", "name": "Ebb"}, "mainEntityOfPage": "https://alexdordiuk.github.io/ebb-site/da/stop-med-snus-abstinenser/"}</script>
+<link rel="stylesheet" href="../../assets/tools.css">
+<script src="../../assets/tools.js" defer></script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Stop med snus: abstinenser dag for dag", "description": "Hvad der sker 20 minutter, 3 døgn, en måned og et år efter din seneste nikotinpose, med en kilde for hvert trin. Skrevet til snus og nikotinposer, ikke cigaretter.", "inLanguage": "da", "image": "https://alexdordiuk.github.io/ebb-site/assets/brand/og-da.png", "datePublished": "2026-10-22", "dateModified": "2026-11-14", "author": {"@type": "Person", "name": "Oleksandr Dordiuk"}, "publisher": {"@type": "Organization", "name": "Ebb", "url": "https://alexdordiuk.github.io/ebb-site/"}, "mainEntityOfPage": "https://alexdordiuk.github.io/ebb-site/da/stop-med-snus-abstinenser/"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Ebb", "item": "https://alexdordiuk.github.io/ebb-site/da/"}, {"@type": "ListItem", "position": 2, "name": "Abstinenser dag for dag", "item": "https://alexdordiuk.github.io/ebb-site/da/stop-med-snus-abstinenser/"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "da", "mainEntity": [{"@type": "Question", "name": "Hvilken dag er værst, når man stopper med snus?", "acceptedAnswer": {"@type": "Answer", "text": "Oftest dag 2 eller 3. Den norske retningslinje om snusstop lægger toppen i de første to til tre dage."}}, {"@type": "Question", "name": "Hvor længe har man abstinenser efter snus?", "acceptedAnswer": {"@type": "Answer", "text": "For de fleste en til fire uger. Trang, der hænger sammen med vaner, som kaffen, bilen eller en aften i byen, kan dukke op længere, men den bliver svagere og sjældnere."}}, {"@type": "Question", "name": "Hvor længe varer en trang?", "acceptedAnswer": {"@type": "Answer", "text": "Fra under et minut til få minutter. At vente den ud med vand, en gåtur eller en besked til en ven virker bedre end at kæmpe imod i hovedet."}}, {"@type": "Question", "name": "Tager man på, når man stopper med snus?", "acceptedAnswer": {"@type": "Answer", "text": "Øget appetit er en almindelig abstinens og kan vare længere end resten. Vand, faste måltider og lidt mere bevægelse hjælper."}}, {"@type": "Question", "name": "Kan nikotinerstatning hjælpe?", "acceptedAnswer": {"@type": "Answer", "text": "Ja, den kan dæmpe abstinenserne. Helsenorge nævner tyggegummi, plaster, sugetabletter, mundspray og poser, der sælges som lægemidler. Brug den anbefalede dosis: for svag en dosis i for kort tid gør et tilbagefald mere sandsynligt. Spørg på apoteket eller din læge, og læs stoppe brat eller trappe ned."}}]}</script>
 </head>
 <body>
 <main>
@@ -41,74 +47,81 @@
 </div>
 
 <h2>Tidslinjen</h2>
+<section class="tool card" id="where" data-tool="quit" data-since="{time} siden din seneste pose." data-reached="{n} af {total} milepæle nået." data-next="Næste: {when}, om {time}." data-all="Du har passeret alle milepæle på siden." hidden>
+<h2>Hvor er du på tidslinjen?</h2>
+<div class="row"><label>Hvornår tog du din seneste pose?<input type="datetime-local"></label><button type="button" hidden>Nulstil</button></div>
+<p class="status" data-out="status" aria-live="polite"></p>
+<p class="note">Datoen gemmes kun i denne browser og sendes ikke nogen steder.</p>
+</section>
+
 <ol class="timeline">
-<li>
+<li data-seconds="1200">
 <p class="when">20 minutter</p>
 <h3>En trang varer minutter, ikke timer</h3>
 <p>Den første trang kommer ofte tidligt. Hver trang går som regel over inden for få minutter, og ifølge svenske 1177 varer en trang ofte kun 20–30 sekunder. Hav en plan klar: et glas vand, en kort gåtur eller et opkald til en ven.</p>
 <p class="src">Kilder: <a href="https://www.helsenorge.no/en/snus-og-roykeslutt/tips-for-a-slutte-a-royke/">Helsenorge</a>, <a href="https://www.1177.se/liv--halsa/tobak-och-alkohol/tobak/hjalp-att-sluta-snusa/">1177.se</a></p>
 </li>
-<li>
+<li data-seconds="7200">
 <p class="when">2 timer</p>
 <h3>Nikotinen i blodet falder</h3>
 <p>Nikotin har en halveringstid på omkring 2 timer, men det varierer fra person til person. En pose afgiver nikotinen langsomt, så niveauet falder ikke på én gang, men det er allerede på vej ned.</p>
 <p class="src">Kilde: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2953858/">Benowitz m.fl., Handbook of Experimental Pharmacology, 2009</a></p>
 </li>
-<li>
+<li data-seconds="28800">
 <p class="when">8 timer</p>
 <h3>Hjertet får en pause</h3>
 <p>Mens du har en pose i munden, trækker nikotinen blodkarrene sammen og hæver puls og blodtryk. Nikotinposer indeholder også nikotin og kan have samme virkning. Uden nikotin slipper hjertet for den ekstra belastning.</p>
 <p class="src">Kilde: <a href="https://www.helsenorge.no/snus-og-roykeslutt/helseskader-av-snus/">Helsenorge: Snus – helseskader</a></p>
 </li>
-<li>
+<li data-seconds="86400">
 <p class="when">1 døgn</p>
 <h3>Abstinenser er almindelige nu</h3>
 <p>Rastløshed, irritabilitet, uro, nedtrykthed, dårligere søvn, koncentrationsbesvær og øget appetit er alle almindelige abstinenser. De er ubehagelige, og de går over.</p>
 <p class="src">Kilde: <a href="https://www.1177.se/liv--halsa/tobak-och-alkohol/tobak/hjalp-att-sluta-snusa/">1177.se: Hjälp att sluta snusa</a></p>
 </li>
-<li>
+<li data-seconds="172800">
 <p class="when">2 døgn</p>
 <h3>Den hårdeste periode</h3>
 <p>Ifølge den norske nationale retningslinje om snusstop er abstinenserne værst de første to til tre dage. Føles det tungt i dag, er det forventeligt. Herfra bliver det lettere.</p>
 <p class="src">Kilde: <a href="https://www.helsedirektoratet.no/retningslinjer/roykeavvenning/bruk-av-legemidler-til-roykeslutt/snus">Helsedirektoratet: national retningslinje, Snus</a></p>
 </li>
-<li>
+<li data-seconds="259200">
 <p class="when">3 døgn</p>
 <h3>Det meste af nikotinens nedbrydningsstof er væk</h3>
 <p>Kroppen omdanner nikotin til kotinin, som har en halveringstid på omkring 16 timer. Efter tre døgn er det meste væk. Små mængder kan stadig ses i en test et stykke tid, især hvis du brugte meget.</p>
 <p class="src">Kilde: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2953858/">Benowitz m.fl., 2009</a></p>
 </li>
-<li>
+<li data-seconds="604800">
 <p class="when">1 uge</p>
 <h3>Mere sulten end normalt</h3>
 <p>Nikotin dæmper sulten og øger forbrændingen, så det er almindeligt og normalt at være mere sulten, når man er stoppet. Hav vand og et sundt mellemmåltid inden for rækkevidde, og bevæg dig lidt mere, hvis du kan.</p>
 <p class="src">Kilde: <a href="https://www.helsenorge.no/en/snus-og-roykeslutt/tips-for-a-slutte-a-royke/">Helsenorge</a></p>
 </li>
-<li>
+<li data-seconds="1209600">
 <p class="when">2 uger</p>
 <h3>Tandkødet</h3>
 <p>Når man stopper med brun snus, kommer irriteret tandkød sig oftest i løbet af få uger. Irritation fra nikotinposer kan tage måneder at hele. Tandkød, der har trukket sig tilbage, vokser ikke ud igen af sig selv. Læs mere om <a href="../../da/tandkod-efter-snus/">tandkødet efter snus</a>.</p>
 <p class="src">Kilder: <a href="https://www.gu.se/en/news/long-term-inflammation-raises-questions-about-white-snus">Göteborgs Universitet, 2025</a>, <a href="https://www.helsenorge.no/snus-og-roykeslutt/helseskader-av-snus/">Helsenorge</a></p>
 </li>
-<li>
+<li data-seconds="2592000">
 <p class="when">1 måned</p>
 <h3>Abstinenserne er for det meste overstået</h3>
 <p>Abstinenserne forsvinder som regel inden for en til tre uger. Øget appetit og en enkelt trang kan vare længere, og det betyder ikke, at noget er gået galt.</p>
 <p class="src">Kilde: <a href="https://www.1177.se/liv--halsa/tobak-och-alkohol/tobak/hjalp-att-sluta-snusa/">1177.se</a></p>
 </li>
-<li>
+<li data-seconds="7776000">
 <p class="when">3 måneder</p>
 <h3>Nye rutiner sætter sig</h3>
 <p>I studier af nye sundhedsvaner tog det omkring to til fem måneder, før rutiner blev automatiske. Morgenkaffen uden pose, bilturen uden pose: dine nye rutiner er godt på vej. Studierne handlede om at opbygge nye vaner, ikke om at stoppe med nikotin, så se det som en grov rettesnor.</p>
 <p class="src">Kilde: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11641623/">Singh m.fl., Healthcare, 2024 (systematisk oversigt)</a></p>
 </li>
-<li>
+<li data-seconds="15724800">
 <p class="when">6 måneder</p>
 <h3>Et stop, der tæller</h3>
 <p>Studier af stop med snus og anden røgfri tobak regner et stop som vellykket, når det har holdt i seks måneder eller mere. Efter det mål tæller dit.</p>
 <p class="src">Kilde: <a href="https://www.cochrane.org/CD015314">Cochrane-oversigt: Interventions for smokeless tobacco use cessation, 2025</a></p>
 </li>
-<li>
+<li data-seconds="31536000">
 <p class="when">1 år</p>
 <h3>Pengene løber op</h3>
 <p>Et år uden at købe poser løber op. En dåse nikotinposer koster omkring 65 kroner i butikken, så en dåse hver anden dag bliver knap 12.000 kroner om året. Et almindeligt råd er at bruge pengene på noget, du virkelig gerne vil have.</p>

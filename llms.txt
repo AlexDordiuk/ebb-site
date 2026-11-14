@@ -1,0 +1,59 @@
+# Ebb
+
+> An iPhone app to cut down or quit Zyn, Velo, snus and other nicotine pouches. Log a pouch in one tap, follow a plan that eases down, see what you save.
+
+Ebb is an iPhone app for adults (18+) who want to cut down or quit nicotine pouches and snus. It is made by an independent developer and is not a medical app.
+
+## Facts
+
+- Platform: iPhone with iOS 17 or later. Home Screen and Lock Screen widgets, Control Center, Siri; Apple Watch with Ebb Pro.
+- Two modes: a taper plan whose daily limit drops 10-25% every week, or a quit timer with twelve milestones from 20 minutes to one year. Every milestone links to its source and is about pouches and snus, not cigarettes.
+- Money: Ebb counts what is no longer spent on pouches and shows how soon it covers a goal the user sets.
+- Price: free to download. Free: unlimited logging, both modes, money saved, up to three dreams (savings goals), all milestones, the small widget. Ebb Pro (full history and insights, custom plans, Apple Watch, all widgets, iCloud sync) is a yearly subscription or a one-time purchase; current prices are shown in the App Store.
+- Privacy: no account and no ads. Entries stay on the device; with Ebb Pro they sync through the user's own iCloud.
+- App languages: English, Swedish, Norwegian, Danish, Polish, Ukrainian.
+- Developer: Oleksandr Dordiuk.
+- App Store: https://apps.apple.com/app/apple-store/id6825811787
+
+## English
+
+- [Ebb: quit nicotine pouches at your own pace](https://alexdordiuk.github.io/ebb-site/): An iPhone app to cut down or quit Zyn, Velo, snus and other nicotine pouches. Log a pouch in one tap, follow a plan that eases down, see what you save.
+- [Nicotine pouch withdrawal timeline: Zyn, Velo, snus](https://alexdordiuk.github.io/ebb-site/guides/nicotine-pouch-withdrawal-timeline/): What happens 20 minutes, 3 days, a month and a year after your last nicotine pouch, with a source for every step. Written for pouches and snus, not cigarettes.
+- [Will your gums heal after quitting Zyn or snus?](https://alexdordiuk.github.io/ebb-site/guides/gums-after-quitting-nicotine-pouches/): What can heal after you stop nicotine pouches or snus, what usually doesn't, and when to see a dentist. Based on Helsenorge and the University of Gothenburg.
+- [Quit Zyn cold turkey or taper? How to cut down pouches](https://alexdordiuk.github.io/ebb-site/guides/cut-down-or-quit-cold-turkey/): Quitting nicotine pouches on a set day or cutting down first: what health services recommend, an example taper plan, and where nicotine replacement fits.
+
+## Svenska
+
+- [Ebb: sluta snusa i din egen takt](https://alexdordiuk.github.io/ebb-site/sv/): En iPhone-app för att dra ner på eller sluta med snus och vitt snus. Logga en prilla med ett tryck, följ en plan som trappar ner och se vad du sparar.
+- [Sluta snusa dag för dag: vad som händer i kroppen](https://alexdordiuk.github.io/ebb-site/sv/sluta-snusa-dag-for-dag/): Vad som händer 20 minuter, 3 dygn, en månad och ett år efter din sista prilla, med en källa för varje steg. Skrivet för snus och vitt snus, inte cigaretter.
+- [Växer tandköttet tillbaka när man slutar snusa?](https://alexdordiuk.github.io/ebb-site/sv/tandkottet-efter-snus/): Vad som kan läka när du slutar med snus eller vitt snus, vad som oftast inte gör det och när du ska gå till tandläkaren. Utifrån Helsenorge och Göteborgs universitet.
+- [Sluta snusa tvärt eller trappa ner? Så gör du](https://alexdordiuk.github.io/ebb-site/sv/sluta-tvart-eller-trappa-ner/): Sluta med snus på en bestämd dag eller trappa ner först: vad 1177 och Helsenorge rekommenderar, ett exempel på nedtrappning och var nikotinläkemedel passar in.
+
+## Norsk
+
+- [Ebb: slutt med snus i ditt eget tempo](https://alexdordiuk.github.io/ebb-site/nb/): En iPhone-app for å kutte ned på eller slutte med snus og hvit snus. Logg en pose med ett trykk, følg en plan som trapper ned, og se hva du sparer.
+- [Slutte å snuse: tidslinje for abstinensene dag for dag](https://alexdordiuk.github.io/ebb-site/nb/slutte-a-snuse-tidslinje/): Hva som skjer 20 minutter, 3 døgn, en måned og et år etter den siste posen, med en kilde for hvert steg. Skrevet for snus og hvit snus, ikke sigaretter.
+- [Snus og tannkjøtt: hva leges når du slutter?](https://alexdordiuk.github.io/ebb-site/nb/tannkjott-etter-snus/): Hva som kan leges når du slutter med snus eller hvit snus, hva som oftest ikke gjør det, og når du bør gå til tannlegen. Basert på Helsenorge og Universitetet i Göteborg.
+- [Slutte å snuse brått eller trappe ned? Slik gjør du](https://alexdordiuk.github.io/ebb-site/nb/slutte-brat-eller-trappe-ned/): Slutte med snus på en bestemt dag eller trappe ned først: hva Helsenorge og 1177 anbefaler, et eksempel på nedtrapping og hvor nikotinlegemidler passer inn.
+
+## Dansk
+
+- [Ebb: stop med snus i dit eget tempo](https://alexdordiuk.github.io/ebb-site/da/): En iPhone-app til at skære ned på eller stoppe med snus og nikotinposer. Log en pose med et tryk, følg en plan, der trapper ned, og se, hvad du sparer.
+- [Stop med snus: abstinenser dag for dag](https://alexdordiuk.github.io/ebb-site/da/stop-med-snus-abstinenser/): Hvad der sker 20 minutter, 3 døgn, en måned og et år efter din seneste nikotinpose, med en kilde for hvert trin. Skrevet til snus og nikotinposer, ikke cigaretter.
+- [Nikotinposer og tandkød: hvad heler, når du stopper?](https://alexdordiuk.github.io/ebb-site/da/tandkod-efter-snus/): Hvad der kan hele, når du stopper med snus eller nikotinposer, hvad der oftest ikke gør, og hvornår du skal til tandlæge. Baseret på Helsenorge og Göteborgs Universitet.
+- [Stoppe brat med snus eller trappe ned? Sådan gør du](https://alexdordiuk.github.io/ebb-site/da/stoppe-brat-eller-trappe-ned/): Stop med snus eller nikotinposer på en bestemt dag eller trap ned først: hvad 1177 og Helsenorge anbefaler, et eksempel på nedtrapning, og hvor nikotinerstatning passer ind.
+
+## Українська
+
+- [Ebb: кинь нікотинові паучі у своєму темпі](https://alexdordiuk.github.io/ebb-site/uk/): Застосунок для iPhone, щоб скоротити або кинути нікотинові паучі й снюс. Запис в один дотик, план, що щотижня знижує ліміт, і зекономлені гроші.
+
+## Tools
+
+- [What pouches cost](https://alexdordiuk.github.io/ebb-site/#savings): a calculator for a month, a year and five years.
+- [Taper plan builder](https://alexdordiuk.github.io/ebb-site/guides/cut-down-or-quit-cold-turkey/#plan): a week-by-week plan from the current number of pouches.
+- [Where am I on the timeline](https://alexdordiuk.github.io/ebb-site/guides/nicotine-pouch-withdrawal-timeline/#where): milestones reached since the last pouch.
+
+## Policies
+
+- [Privacy Policy](https://alexdordiuk.github.io/ebb-site/privacy/)
+- [Support](https://alexdordiuk.github.io/ebb-site/support/)

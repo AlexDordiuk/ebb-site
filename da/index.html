@@ -14,6 +14,8 @@
 <link rel="alternate" hreflang="uk" href="https://alexdordiuk.github.io/ebb-site/uk/">
 <link rel="alternate" hreflang="x-default" href="https://alexdordiuk.github.io/ebb-site/">
 <meta name="apple-itunes-app" content="app-id=6825811787">
+<meta name="author" content="Oleksandr Dordiuk">
+<meta property="og:locale" content="da_DK">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Ebb">
 <meta property="og:title" content="Ebb: stop med snus i dit eget tempo">
@@ -29,6 +31,10 @@
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Ebb">
 <meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="../assets/tools.css">
+<script src="../assets/tools.js" defer></script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Ebb", "alternateName": "Ebb: stop med snus i dit eget tempo", "description": "En iPhone-app til at skære ned på eller stoppe med snus og nikotinposer. Log en pose med et tryk, følg en plan, der trapper ned, og se, hvad du sparer.", "url": "https://alexdordiuk.github.io/ebb-site/da/", "image": "https://alexdordiuk.github.io/ebb-site/assets/brand/og-da.png", "screenshot": ["https://alexdordiuk.github.io/ebb-site/assets/screens/da/01-hero.jpg", "https://alexdordiuk.github.io/ebb-site/assets/screens/da/04-plan.jpg", "https://alexdordiuk.github.io/ebb-site/assets/screens/da/05-milestones.jpg"], "applicationCategory": "HealthApplication", "operatingSystem": "iOS 17.0 or later", "inLanguage": "da", "isAccessibleForFree": true, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "author": {"@type": "Person", "name": "Oleksandr Dordiuk"}, "dateModified": "2026-11-14", "installUrl": "https://apps.apple.com/app/apple-store/id6825811787"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "da", "mainEntity": [{"@type": "Question", "name": "Hvad er Ebb?", "acceptedAnswer": {"@type": "Answer", "text": "Ebb er en iPhone-app (iOS 17 eller nyere) til voksne, der vil skære ned på eller stoppe med snus og nikotinposer. Du logger hver pose med et tryk, følger en daglig grænse, der går ned hver uge, eller en timer med milepæle og kilder, og ser, hvad du sparer."}}, {"@type": "Question", "name": "Er Ebb gratis?", "acceptedAnswer": {"@type": "Answer", "text": "Det grundlæggende er gratis: ubegrænset logning, begge tilstande, sparede penge, op til tre drømme, alle milepæle og den lille widget. Ebb Pro giver dig hele historikken og indsigt, egne planer, Apple Watch, alle widgets og iCloud-synkronisering. Pro fås som årsabonnement eller som et engangskøb; priserne vises i App Store."}}, {"@type": "Question", "name": "Virker Ebb til både nikotinposer og brun snus?", "acceptedAnswer": {"@type": "Answer", "text": "Ja. Ebb virker til alle nikotinposer og al snus: du angiver, hvor mange poser du bruger om dagen, og hvad en dåse koster."}}, {"@type": "Question", "name": "Skal jeg oprette en konto?", "acceptedAnswer": {"@type": "Answer", "text": "Nej. Ingen konto og ingen reklamer. Dine registreringer bliver på din iPhone, og med Ebb Pro synkroniseres de via din egen iCloud."}}, {"@type": "Question", "name": "Giver Ebb medicinsk rådgivning?", "acceptedAnswer": {"@type": "Answer", "text": "Nej. Ebb er ikke en medicinsk app. Milepælene citerer offentlige sundhedstjenester, universiteter og videnskabelige oversigter med link til hver kilde. Tal med en læge eller på apoteket om nikotinerstatning."}}]}</script>
 </head>
 <body>
 <main>
@@ -53,6 +59,14 @@
 <h2>Penge, du kan se</h2>
 <p>Ebb tæller det, du ikke længere bruger på snus, og gør det til drømme: en koncert, nye høretelefoner, en rejse. Skriv en pris, så viser Ebb, hvor hurtigt dine besparelser dækker den i dit tempo. Ebb tæller kun, appen rører aldrig dine penge.</p>
 
+<section class="tool card" id="savings" data-tool="savings" data-locale="da-DK" data-currency="DKK" hidden>
+<h2>Hvad koster snusen dig?</h2>
+<p>Skift tallene ud med dine egne.</p>
+<div class="fields"><label>Poser om dagen<input name="perDay" type="number" inputmode="decimal" min="0" step="1" value="10"></label><label>Poser i en dåse<input name="perCan" type="number" inputmode="decimal" min="0" step="1" value="20"></label><label>Pris pr. dåse<input name="price" type="number" inputmode="decimal" min="0" step="0.5" value="45"></label></div>
+<dl class="result" aria-live="polite"><div><dt>Pr. måned</dt><dd data-out="month"></dd></div><div><dt>Pr. år</dt><dd data-out="year"></dd></div><div><dt>På fem år</dt><dd data-out="five"></dd></div></dl>
+<p class="note">Ebb tæller det ud fra din egen log og viser, hvor hurtigt besparelserne dækker noget, du gerne vil have.</p>
+</section>
+
 <h2>Fakta, ikke skrækhistorier</h2>
 <p>Hver milepæl kommer fra en offentlig sundhedstjeneste, et universitet eller en videnskabelig oversigt og handler om snus og nikotinposer, ikke cigaretter. Ebb lover ikke, at lungerne bliver renere, eller at smagssansen kommer tilbage, for det er resultater om rygning.</p>
 
@@ -62,6 +76,18 @@
 <h2>Gratis, og Pro hvis du vil have mere</h2>
 <p>Gratis: ubegrænset logning, begge tilstande, sparede penge, op til tre drømme, alle milepæle, den lille widget, widgets på låseskærmen, Kontrolcenter, Siri og åndedrætsøvelsen. Ebb Pro giver dig hele historikken og indsigt, egne planer, Apple Watch, alle widgets, iCloud-synkronisering og mere. Pro fås som årsabonnement eller som et engangskøb; priser og vilkår vises i App Store.</p>
 <p>Ebb er til voksne over 18 år. Appen er ikke en medicinsk app og giver ikke medicinsk rådgivning.</p>
+
+<h2>Spørgsmål, folk stiller</h2>
+<h3>Hvad er Ebb?</h3>
+<p>Ebb er en iPhone-app (iOS 17 eller nyere) til voksne, der vil skære ned på eller stoppe med snus og nikotinposer. Du logger hver pose med et tryk, følger en daglig grænse, der går ned hver uge, eller en timer med milepæle og kilder, og ser, hvad du sparer.</p>
+<h3>Er Ebb gratis?</h3>
+<p>Det grundlæggende er gratis: ubegrænset logning, begge tilstande, sparede penge, op til tre drømme, alle milepæle og den lille widget. Ebb Pro giver dig hele historikken og indsigt, egne planer, Apple Watch, alle widgets og iCloud-synkronisering. Pro fås som årsabonnement eller som et engangskøb; priserne vises i App Store.</p>
+<h3>Virker Ebb til både nikotinposer og brun snus?</h3>
+<p>Ja. Ebb virker til alle nikotinposer og al snus: du angiver, hvor mange poser du bruger om dagen, og hvad en dåse koster.</p>
+<h3>Skal jeg oprette en konto?</h3>
+<p>Nej. Ingen konto og ingen reklamer. Dine registreringer bliver på din iPhone, og med Ebb Pro synkroniseres de via din egen iCloud.</p>
+<h3>Giver Ebb medicinsk rådgivning?</h3>
+<p>Nej. Ebb er ikke en medicinsk app. Milepælene citerer offentlige sundhedstjenester, universiteter og videnskabelige oversigter med link til hver kilde. Tal med en læge eller på apoteket om nikotinerstatning.</p>
 
 <h2>Guides</h2>
 <ul class="guides">

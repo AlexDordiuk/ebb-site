@@ -14,6 +14,8 @@
 <link rel="alternate" hreflang="uk" href="https://alexdordiuk.github.io/ebb-site/uk/">
 <link rel="alternate" hreflang="x-default" href="https://alexdordiuk.github.io/ebb-site/">
 <meta name="apple-itunes-app" content="app-id=6825811787">
+<meta name="author" content="Oleksandr Dordiuk">
+<meta property="og:locale" content="en_US">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Ebb">
 <meta property="og:title" content="Ebb: quit nicotine pouches at your own pace">
@@ -29,6 +31,10 @@
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Ebb">
 <meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="assets/tools.css">
+<script src="assets/tools.js" defer></script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Ebb", "alternateName": "Ebb: quit nicotine pouches at your own pace", "description": "An iPhone app to cut down or quit Zyn, Velo, snus and other nicotine pouches. Log a pouch in one tap, follow a plan that eases down, see what you save.", "url": "https://alexdordiuk.github.io/ebb-site/", "image": "https://alexdordiuk.github.io/ebb-site/assets/brand/og-en.png", "screenshot": ["https://alexdordiuk.github.io/ebb-site/assets/screens/en/01-hero.jpg", "https://alexdordiuk.github.io/ebb-site/assets/screens/en/04-plan.jpg", "https://alexdordiuk.github.io/ebb-site/assets/screens/en/05-milestones.jpg"], "applicationCategory": "HealthApplication", "operatingSystem": "iOS 17.0 or later", "inLanguage": "en", "isAccessibleForFree": true, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "author": {"@type": "Person", "name": "Oleksandr Dordiuk"}, "dateModified": "2026-11-14", "installUrl": "https://apps.apple.com/app/apple-store/id6825811787"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "en", "mainEntity": [{"@type": "Question", "name": "What is Ebb?", "acceptedAnswer": {"@type": "Answer", "text": "Ebb is an iPhone app (iOS 17 or later) for adults who want to cut down or quit nicotine pouches and snus. You log each pouch in one tap, follow a daily limit that eases down every week or a quit timer with sourced milestones, and see the money you save."}}, {"@type": "Question", "name": "Is Ebb free?", "acceptedAnswer": {"@type": "Answer", "text": "The basics are free: unlimited logging, both modes, money saved, up to three dreams, all milestones and the small widget. Ebb Pro adds your full history and insights, custom plans, Apple Watch, all widgets and iCloud sync. Pro is a yearly subscription or a one-time purchase; prices are shown in the App Store."}}, {"@type": "Question", "name": "Does Ebb work with Zyn, Velo, On! and snus?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Ebb works with any nicotine pouch or snus: you enter how many you use a day and what a can costs. Ebb is not affiliated with any brand."}}, {"@type": "Question", "name": "Do I need an account?", "acceptedAnswer": {"@type": "Answer", "text": "No. There is no account and there are no ads. Your entries stay on your iPhone, and with Ebb Pro they sync through your own iCloud."}}, {"@type": "Question", "name": "Is Ebb medical advice?", "acceptedAnswer": {"@type": "Answer", "text": "No. Ebb is not a medical app. Its milestones quote public health services, universities and scientific reviews, with a link to each source. Talk to a doctor or pharmacist about nicotine replacement."}}]}</script>
 </head>
 <body>
 <main>
@@ -53,6 +59,14 @@
 <h2>Money you can see</h2>
 <p>Ebb counts what you're no longer spending and turns it into dreams: a concert, new headphones, a trip. Enter a price and Ebb shows how soon your savings cover it at your pace. Ebb only counts; it never touches your money.</p>
 
+<section class="tool card" id="savings" data-tool="savings" data-locale="en-US" data-currency="USD" hidden>
+<h2>What do pouches cost you?</h2>
+<p>Change the numbers to yours.</p>
+<div class="fields"><label>Pouches a day<input name="perDay" type="number" inputmode="decimal" min="0" step="1" value="10"></label><label>Pouches in a can<input name="perCan" type="number" inputmode="decimal" min="0" step="1" value="15"></label><label>Price of a can<input name="price" type="number" inputmode="decimal" min="0" step="0.5" value="5.5"></label></div>
+<dl class="result" aria-live="polite"><div><dt>A month</dt><dd data-out="month"></dd></div><div><dt>A year</dt><dd data-out="year"></dd></div><div><dt>Five years</dt><dd data-out="five"></dd></div></dl>
+<p class="note">Ebb counts this from your real log and shows how soon the savings cover something you want.</p>
+</section>
+
 <h2>Facts, not scare stories</h2>
 <p>Every milestone comes from a public health service, a university or a scientific review, and it is about nicotine pouches and snus, not cigarettes. Ebb doesn't promise that your lungs will clear or your taste will come back, because those are findings about smoking.</p>
 
@@ -62,6 +76,18 @@
 <h2>Free, and Pro if you want more</h2>
 <p>Free: unlimited logging, both modes, money saved, up to three dreams, all milestones, the small widget, Lock Screen widgets, Control Center, Siri and the breathing exercise. Ebb Pro adds your full history and insights, custom plans, Apple Watch, all widgets, iCloud sync and more. Pro is a yearly subscription or a one-time purchase; prices and terms are shown in the App Store.</p>
 <p>Ebb is for adults 18+. It is not a medical app and does not give medical advice.</p>
+
+<h2>Questions people ask</h2>
+<h3>What is Ebb?</h3>
+<p>Ebb is an iPhone app (iOS 17 or later) for adults who want to cut down or quit nicotine pouches and snus. You log each pouch in one tap, follow a daily limit that eases down every week or a quit timer with sourced milestones, and see the money you save.</p>
+<h3>Is Ebb free?</h3>
+<p>The basics are free: unlimited logging, both modes, money saved, up to three dreams, all milestones and the small widget. Ebb Pro adds your full history and insights, custom plans, Apple Watch, all widgets and iCloud sync. Pro is a yearly subscription or a one-time purchase; prices are shown in the App Store.</p>
+<h3>Does Ebb work with Zyn, Velo, On! and snus?</h3>
+<p>Yes. Ebb works with any nicotine pouch or snus: you enter how many you use a day and what a can costs. Ebb is not affiliated with any brand.</p>
+<h3>Do I need an account?</h3>
+<p>No. There is no account and there are no ads. Your entries stay on your iPhone, and with Ebb Pro they sync through your own iCloud.</p>
+<h3>Is Ebb medical advice?</h3>
+<p>No. Ebb is not a medical app. Its milestones quote public health services, universities and scientific reviews, with a link to each source. Talk to a doctor or pharmacist about nicotine replacement.</p>
 
 <h2>Guides</h2>
 <ul class="guides">

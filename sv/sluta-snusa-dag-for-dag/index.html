@@ -13,6 +13,8 @@
 <link rel="alternate" hreflang="da" href="https://alexdordiuk.github.io/ebb-site/da/stop-med-snus-abstinenser/">
 <link rel="alternate" hreflang="x-default" href="https://alexdordiuk.github.io/ebb-site/guides/nicotine-pouch-withdrawal-timeline/">
 <meta name="apple-itunes-app" content="app-id=6825811787">
+<meta name="author" content="Oleksandr Dordiuk">
+<meta property="og:locale" content="sv_SE">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Ebb">
 <meta property="og:title" content="Sluta snusa dag för dag: vad som händer i kroppen">
@@ -28,7 +30,11 @@
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Ebb">
 <meta name="twitter:card" content="summary_large_image">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Sluta snusa dag för dag: vad som händer i kroppen", "description": "Vad som händer 20 minuter, 3 dygn, en månad och ett år efter din sista prilla, med en källa för varje steg. Skrivet för snus och vitt snus, inte cigaretter.", "inLanguage": "sv", "datePublished": "2026-10-22", "dateModified": "2026-10-22", "author": {"@type": "Person", "name": "Oleksandr Dordiuk"}, "publisher": {"@type": "Organization", "name": "Ebb"}, "mainEntityOfPage": "https://alexdordiuk.github.io/ebb-site/sv/sluta-snusa-dag-for-dag/"}</script>
+<link rel="stylesheet" href="../../assets/tools.css">
+<script src="../../assets/tools.js" defer></script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Sluta snusa dag för dag: vad som händer i kroppen", "description": "Vad som händer 20 minuter, 3 dygn, en månad och ett år efter din sista prilla, med en källa för varje steg. Skrivet för snus och vitt snus, inte cigaretter.", "inLanguage": "sv", "image": "https://alexdordiuk.github.io/ebb-site/assets/brand/og-sv.png", "datePublished": "2026-10-22", "dateModified": "2026-11-14", "author": {"@type": "Person", "name": "Oleksandr Dordiuk"}, "publisher": {"@type": "Organization", "name": "Ebb", "url": "https://alexdordiuk.github.io/ebb-site/"}, "mainEntityOfPage": "https://alexdordiuk.github.io/ebb-site/sv/sluta-snusa-dag-for-dag/"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Ebb", "item": "https://alexdordiuk.github.io/ebb-site/sv/"}, {"@type": "ListItem", "position": 2, "name": "Abstinens dag för dag", "item": "https://alexdordiuk.github.io/ebb-site/sv/sluta-snusa-dag-for-dag/"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "sv", "mainEntity": [{"@type": "Question", "name": "Vilken dag är värst när man slutar snusa?", "acceptedAnswer": {"@type": "Answer", "text": "Oftast dag 2 eller 3. Den norska riktlinjen om att sluta snusa lägger toppen på de första två till tre dagarna."}}, {"@type": "Question", "name": "Hur länge har man abstinens efter snus?", "acceptedAnswer": {"@type": "Answer", "text": "För de flesta en till fyra veckor. Sug som hänger ihop med vanor, som kaffet, bilen eller en utekväll, kan dyka upp längre, men de blir svagare och mer sällsynta."}}, {"@type": "Question", "name": "Hur länge varar ett sug?", "acceptedAnswer": {"@type": "Answer", "text": "Från under en minut till några minuter. Att vänta ut det med vatten, en promenad eller ett meddelande till en vän fungerar bättre än att kämpa emot i huvudet."}}, {"@type": "Question", "name": "Går man upp i vikt när man slutar snusa?", "acceptedAnswer": {"@type": "Answer", "text": "Ökad aptit är ett vanligt abstinensbesvär och kan hålla i sig längre än resten. Vatten, regelbundna måltider och lite mer rörelse hjälper."}}, {"@type": "Question", "name": "Kan nikotinläkemedel hjälpa?", "acceptedAnswer": {"@type": "Answer", "text": "Ja, de kan lindra abstinensen. Helsenorge nämner tuggummi, plåster, sugtabletter, munspray och påsar som säljs som läkemedel. Använd rekommenderad dos: för svag dos under för kort tid gör ett återfall mer sannolikt. Fråga på apoteket eller en läkare, och läs sluta tvärt eller trappa ner."}}]}</script>
 </head>
 <body>
 <main>
@@ -41,74 +47,81 @@
 </div>
 
 <h2>Tidslinjen</h2>
+<section class="tool card" id="where" data-tool="quit" data-since="{time} sedan din senaste prilla." data-reached="{n} av {total} milstolpar nådda." data-next="Nästa: {when}, om {time}." data-all="Du har passerat alla milstolpar på sidan." hidden>
+<h2>Var är du på tidslinjen?</h2>
+<div class="row"><label>När tog du din senaste prilla?<input type="datetime-local"></label><button type="button" hidden>Rensa</button></div>
+<p class="status" data-out="status" aria-live="polite"></p>
+<p class="note">Datumet sparas bara i den här webbläsaren och skickas inte någonstans.</p>
+</section>
+
 <ol class="timeline">
-<li>
+<li data-seconds="1200">
 <p class="when">20 minuter</p>
 <h3>Ett sug varar minuter, inte timmar</h3>
 <p>De första sugen kommer ofta tidigt. Varje sug brukar gå över inom några minuter, och enligt 1177 håller ett sug ofta bara i sig i 20–30 sekunder. Ha en plan redo: ett glas vatten, en kort promenad eller ett samtal till en vän.</p>
 <p class="src">Källor: <a href="https://www.helsenorge.no/en/snus-og-roykeslutt/tips-for-a-slutte-a-royke/">Helsenorge</a>, <a href="https://www.1177.se/liv--halsa/tobak-och-alkohol/tobak/hjalp-att-sluta-snusa/">1177.se</a></p>
 </li>
-<li>
+<li data-seconds="7200">
 <p class="when">2 timmar</p>
 <h3>Nikotinet i blodet sjunker</h3>
 <p>Nikotin har en halveringstid på ungefär 2 timmar, men det varierar mellan personer. En prilla släpper ut nikotinet långsamt, så nivån faller inte på en gång, men den sjunker redan.</p>
 <p class="src">Källa: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2953858/">Benowitz m.fl., Handbook of Experimental Pharmacology, 2009</a></p>
 </li>
-<li>
+<li data-seconds="28800">
 <p class="when">8 timmar</p>
 <h3>Hjärtat får vila</h3>
 <p>Med en prilla inne drar nikotinet ihop blodkärlen och höjer puls och blodtryck. Vitt snus innehåller också nikotin och kan ha samma effekt. Utan nikotin slipper hjärtat den extra belastningen.</p>
 <p class="src">Källa: <a href="https://www.helsenorge.no/snus-og-roykeslutt/helseskader-av-snus/">Helsenorge: Snus – helseskader</a></p>
 </li>
-<li>
+<li data-seconds="86400">
 <p class="when">1 dygn</p>
 <h3>Abstinensbesvär är vanliga nu</h3>
 <p>Rastlöshet, irritation, oro, nedstämdhet, sämre sömn, svårt att koncentrera sig och ökad aptit är alla vanliga abstinensbesvär. De är jobbiga, och de går över.</p>
 <p class="src">Källa: <a href="https://www.1177.se/liv--halsa/tobak-och-alkohol/tobak/hjalp-att-sluta-snusa/">1177.se: Hjälp att sluta snusa</a></p>
 </li>
-<li>
+<li data-seconds="172800">
 <p class="when">2 dygn</p>
 <h3>Den tuffaste perioden</h3>
 <p>Enligt den norska nationella riktlinjen om att sluta snusa är abstinensen värst de första två till tre dagarna. Känns det tungt i dag är det väntat. Härifrån blir det lättare.</p>
 <p class="src">Källa: <a href="https://www.helsedirektoratet.no/retningslinjer/roykeavvenning/bruk-av-legemidler-til-roykeslutt/snus">Helsedirektoratet: nationell riktlinje, Snus</a></p>
 </li>
-<li>
+<li data-seconds="259200">
 <p class="when">3 dygn</p>
 <h3>Det mesta av nikotinets nedbrytningsämne är borta</h3>
 <p>Kroppen omvandlar nikotin till kotinin, som har en halveringstid på ungefär 16 timmar. Efter tre dygn är det mesta borta. Små mängder kan fortfarande synas i ett test ett tag, särskilt om du snusade mycket.</p>
 <p class="src">Källa: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2953858/">Benowitz m.fl., 2009</a></p>
 </li>
-<li>
+<li data-seconds="604800">
 <p class="when">1 vecka</p>
 <h3>Hungrigare än vanligt</h3>
 <p>Nikotin dämpar hungern och ökar ämnesomsättningen, så det är vanligt och normalt att vara hungrigare efter ett stopp. Ha vatten och ett nyttigt mellanmål nära till hands och rör på dig lite mer om du kan.</p>
 <p class="src">Källa: <a href="https://www.helsenorge.no/en/snus-og-roykeslutt/tips-for-a-slutte-a-royke/">Helsenorge</a></p>
 </li>
-<li>
+<li data-seconds="1209600">
 <p class="when">2 veckor</p>
 <h3>Tandköttet</h3>
 <p>Efter ett stopp med brunt snus återhämtar sig irriterat tandkött oftast på några veckor. Irritation av vitt snus kan ta månader att läka. Tandkött som har dragit sig tillbaka växer inte tillbaka av sig självt. Läs mer om <a href="../../sv/tandkottet-efter-snus/">tandköttet efter snus</a>.</p>
 <p class="src">Källor: <a href="https://www.gu.se/nyheter/langvariga-inflammationer-vacker-fragor-om-vitt-snus">Göteborgs universitet, 2025</a>, <a href="https://www.helsenorge.no/snus-og-roykeslutt/helseskader-av-snus/">Helsenorge</a></p>
 </li>
-<li>
+<li data-seconds="2592000">
 <p class="when">1 månad</p>
 <h3>Abstinensen är mest bakom dig</h3>
 <p>Abstinensbesvären brukar försvinna inom en till tre veckor. Ökad aptit och enstaka sug kan finnas kvar längre, och det betyder inte att något har gått fel.</p>
 <p class="src">Källa: <a href="https://www.1177.se/liv--halsa/tobak-och-alkohol/tobak/hjalp-att-sluta-snusa/">1177.se</a></p>
 </li>
-<li>
+<li data-seconds="7776000">
 <p class="when">3 månader</p>
 <h3>Nya rutiner sätter sig</h3>
 <p>I studier av nya hälsovanor tog det ungefär två till fem månader innan rutiner blev automatiska. Morgonkaffet utan prilla, bilresan utan prilla: dina nya rutiner är på god väg. Studierna handlade om att skaffa nya vanor, inte om att sluta med nikotin, så se det som en grov riktning.</p>
 <p class="src">Källa: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11641623/">Singh m.fl., Healthcare, 2024 (systematisk översikt)</a></p>
 </li>
-<li>
+<li data-seconds="15724800">
 <p class="when">6 månader</p>
 <h3>Ett stopp som räknas</h3>
 <p>Studier om att sluta med snus och annan rökfri tobak räknar ett stopp som lyckat när det har hållit i sex månader eller mer. Enligt det måttet räknas ditt.</p>
 <p class="src">Källa: <a href="https://www.cochrane.org/CD015314">Cochrane-översikt: Interventions for smokeless tobacco use cessation, 2025</a></p>
 </li>
-<li>
+<li data-seconds="31536000">
 <p class="when">1 år</p>
 <h3>Pengarna växer</h3>
 <p>Ett år utan att köpa snus blir en rejäl summa. En dosa vitt snus kostar runt 45 kronor i butik, så en dosa varannan dag blir drygt 8 000 kronor om året. Ett vanligt tips är att lägga pengarna på något du verkligen vill ha.</p>

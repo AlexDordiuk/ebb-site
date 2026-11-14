@@ -14,6 +14,8 @@
 <link rel="alternate" hreflang="uk" href="https://alexdordiuk.github.io/ebb-site/uk/">
 <link rel="alternate" hreflang="x-default" href="https://alexdordiuk.github.io/ebb-site/">
 <meta name="apple-itunes-app" content="app-id=6825811787">
+<meta name="author" content="Oleksandr Dordiuk">
+<meta property="og:locale" content="uk_UA">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Ebb">
 <meta property="og:title" content="Ebb: кинь нікотинові паучі у своєму темпі">
@@ -29,6 +31,10 @@
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Ebb">
 <meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="../assets/tools.css">
+<script src="../assets/tools.js" defer></script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Ebb", "alternateName": "Ebb: кинь нікотинові паучі у своєму темпі", "description": "Застосунок для iPhone, щоб скоротити або кинути нікотинові паучі й снюс. Запис в один дотик, план, що щотижня знижує ліміт, і зекономлені гроші.", "url": "https://alexdordiuk.github.io/ebb-site/uk/", "image": "https://alexdordiuk.github.io/ebb-site/assets/brand/og-uk.png", "screenshot": ["https://alexdordiuk.github.io/ebb-site/assets/screens/uk/01-hero.jpg", "https://alexdordiuk.github.io/ebb-site/assets/screens/uk/04-plan.jpg", "https://alexdordiuk.github.io/ebb-site/assets/screens/uk/05-milestones.jpg"], "applicationCategory": "HealthApplication", "operatingSystem": "iOS 17.0 or later", "inLanguage": "uk", "isAccessibleForFree": true, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "author": {"@type": "Person", "name": "Oleksandr Dordiuk"}, "dateModified": "2026-11-14", "installUrl": "https://apps.apple.com/app/apple-store/id6825811787"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "uk", "mainEntity": [{"@type": "Question", "name": "Що таке Ebb?", "acceptedAnswer": {"@type": "Answer", "text": "Ebb — застосунок для iPhone (iOS 17 або новіша) для дорослих, які хочуть скоротити або кинути нікотинові паучі й снюс. Ти записуєш кожен паучі в один дотик, ідеш за денним лімітом, що щотижня знижується, або за таймером з віхами й джерелами, і бачиш, скільки заощаджуєш."}}, {"@type": "Question", "name": "Чи Ebb безкоштовний?", "acceptedAnswer": {"@type": "Answer", "text": "Базові функції безкоштовні: необмежені записи, обидва режими, зекономлені гроші, до трьох мрій, усі віхи й малий віджет. Ebb Pro додає повну історію й аналітику, власні плани, Apple Watch, усі віджети й синхронізацію через iCloud. Pro — річна підписка або разова покупка; ціни показує App Store."}}, {"@type": "Question", "name": "Чи підходить Ebb і для паучі, і для снюсу?", "acceptedAnswer": {"@type": "Answer", "text": "Так. Ebb працює з будь-якими нікотиновими паучі та снюсом: ти вказуєш, скільки вживаєш на день і скільки коштує банка."}}, {"@type": "Question", "name": "Чи потрібен акаунт?", "acceptedAnswer": {"@type": "Answer", "text": "Ні. Без акаунта й реклами. Записи лишаються на твоєму iPhone, а з Ebb Pro синхронізуються через твій власний iCloud."}}, {"@type": "Question", "name": "Чи дає Ebb медичні поради?", "acceptedAnswer": {"@type": "Answer", "text": "Ні. Ebb — не медичний застосунок. Віхи цитують державні служби охорони здоров'я, університети й наукові огляди з посиланням на кожне джерело. Про нікотинозамісну терапію поговори з лікарем або фармацевтом."}}]}</script>
 </head>
 <body>
 <main>
@@ -47,9 +53,29 @@
 <p><strong>Скоротити.</strong> Денний ліміт щотижня знижується на 10–25%, а Ebb показує, скільки лишилось на сьогодні. Перевищення просто записується, без покарань.</p>
 <p><strong>Кинути зараз.</strong> Таймер від останнього паучі й дванадцять віх від 20 хвилин до року, кожна з коротким фактом і посиланням на джерело.</p>
 
+<section class="tool card" id="savings" data-tool="savings" data-locale="uk-UA" data-currency="UAH" hidden>
+<h2>Скільки тобі коштують паучі?</h2>
+<p>Підстав свої цифри.</p>
+<div class="fields"><label>Паучі на день<input name="perDay" type="number" inputmode="decimal" min="0" step="1" value="10"></label><label>Паучі в банці<input name="perCan" type="number" inputmode="decimal" min="0" step="1" value="20"></label><label>Ціна банки<input name="price" type="number" inputmode="decimal" min="0" step="0.5" value="250"></label></div>
+<dl class="result" aria-live="polite"><div><dt>За місяць</dt><dd data-out="month"></dd></div><div><dt>За рік</dt><dd data-out="year"></dd></div><div><dt>За п&#x27;ять років</dt><dd data-out="five"></dd></div></dl>
+<p class="note">Ebb рахує це з твоїх реальних записів і показує, як скоро заощаджене покриє те, чого ти хочеш.</p>
+</section>
+
 <h2>Приватність</h2>
 <p>Без акаунта й реклами. Записи лишаються на твоїх пристроях, а з Ebb Pro синхронізуються через твій власний iCloud. Базові функції безкоштовні, Ebb Pro — річна підписка або разова покупка, ціни й умови показує App Store.</p>
 <p>Ebb для дорослих 18+. Це не медичний застосунок, і він не дає медичних порад.</p>
+
+<h2>Часті питання</h2>
+<h3>Що таке Ebb?</h3>
+<p>Ebb — застосунок для iPhone (iOS 17 або новіша) для дорослих, які хочуть скоротити або кинути нікотинові паучі й снюс. Ти записуєш кожен паучі в один дотик, ідеш за денним лімітом, що щотижня знижується, або за таймером з віхами й джерелами, і бачиш, скільки заощаджуєш.</p>
+<h3>Чи Ebb безкоштовний?</h3>
+<p>Базові функції безкоштовні: необмежені записи, обидва режими, зекономлені гроші, до трьох мрій, усі віхи й малий віджет. Ebb Pro додає повну історію й аналітику, власні плани, Apple Watch, усі віджети й синхронізацію через iCloud. Pro — річна підписка або разова покупка; ціни показує App Store.</p>
+<h3>Чи підходить Ebb і для паучі, і для снюсу?</h3>
+<p>Так. Ebb працює з будь-якими нікотиновими паучі та снюсом: ти вказуєш, скільки вживаєш на день і скільки коштує банка.</p>
+<h3>Чи потрібен акаунт?</h3>
+<p>Ні. Без акаунта й реклами. Записи лишаються на твоєму iPhone, а з Ebb Pro синхронізуються через твій власний iCloud.</p>
+<h3>Чи дає Ebb медичні поради?</h3>
+<p>Ні. Ebb — не медичний застосунок. Віхи цитують державні служби охорони здоров'я, університети й наукові огляди з посиланням на кожне джерело. Про нікотинозамісну терапію поговори з лікарем або фармацевтом.</p>
 <footer><p><a href="../uk/support/">Підтримка</a> · <a href="../uk/privacy/">Політика конфіденційності</a></p><p>© 2026 Олександр Дордюк</p></footer>
 </main>
 </body>
