@@ -50,15 +50,17 @@
 <p>To learn which features help and where the app needs work, Ebb can send usage statistics to our own server (in.dordcorp.com). No third-party analytics service is involved. The server runs on <a href="https://www.cloudflare.com/privacypolicy/">Cloudflare</a> (Workers and D1), which processes the data on our behalf; the database is located in the EU.</p>
 <p>What is sent:</p>
 <ul>
-<li>that the app was opened on a given day, and which screens and features were used, such as the widget, Apple Watch, SOS exercises, charts or dreams. Features are sent as a summary the next day, not at the moment you use them;</li>
-<li>the steps of the first setup, the mode you chose (cut down or quit) and the product type (pouches, snus, or dip and chew);</li>
-<li>when the Pro offer is shown and whether a purchase was started, completed or cancelled, with the plan (yearly or lifetime), but not the price or payment details;</li>
-<li>what is set up: which Ebb widgets are installed, whether Ebb is on your Apple Watch, whether notifications and iCloud sync are on, the app icon and how many dreams you have (none, 1–3 or more);</li>
-<li>which notification you opened and which kinds of notifications you turned on or off;</li>
-<li>technical information: crash and freeze types reported by iOS, error codes, device type (iPhone or iPad, not the model), iOS and app version, language, the region setting and the country of your App Store account.</li>
+<li>that the app was opened on a given day, how many days have passed since you first opened it, and the week of that first launch;</li>
+<li>which screens and features were used that day, such as the widget, Apple Watch, SOS exercises, charts or dreams. While you are cutting down, this includes whether you logged at all that day and from where (the app, a widget, Siri, Control Center or Apple Watch), but never how many times or at what time. Features are sent as a summary the next day, not at the moment you use them;</li>
+<li>the steps of the first setup, the mode you chose (cut down or quit), a switch from cutting down to quitting, and the product type (pouches, snus, or dip and chew);</li>
+<li>whether Ebb Pro is active; when the Pro offer is shown, from which screen, which version of the offer and roughly how long it stayed open; and whether a purchase was started, completed, cancelled or restored, with the plan (yearly or lifetime) and whether it began with a free trial, but not the price or payment details;</li>
+<li>what is set up: which Ebb widgets and Apple Watch complications are installed, whether the Control Center button is added, whether an Apple Watch is paired and has Ebb, whether notifications and iCloud sync are on, the app icon and how many dreams you have (none, 1–3 or more);</li>
+<li>dreams: that you added one and whether you marked it as small, medium or big, and whether you bought it or kept saving;</li>
+<li>which kind of notification you opened, which kinds of notifications you turned on or off, which kind of setting you changed (for example the plan or the start of the day, never its value), and that Ebb asked you for a rating;</li>
+<li>technical information: crash and freeze types reported by iOS, error codes, device type (iPhone or iPad, not the model), iOS and app version, language, the region setting, the country of your App Store account, and whether the app comes from the App Store or is a test build.</li>
 </ul>
-<p>What is never sent: your log entries, how many pouches you use, nicotine strength, prices, money saved, notes, cravings and their outcome, relapses, milestones, the names or prices of your dreams, or the times when you log.</p>
-<p>Statistics are tied to a random identifier created by the app. It is not your Apple ID, it is not linked to your purchases, and our server stores it only as a salted hash. We do not store IP addresses or the time of day, only the date. We cannot tell who you are from this data. While statistics are on, the identifier is shown in Settings › Usage stats (Analytics ID). To have statistics already sent deleted, send it to us via Support and we will delete all events with it.</p>
+<p>What is never sent: your log entries, how many pouches you use, nicotine strength, prices, money saved, notes, the cravings you record and their outcome, relapses, which milestones you reached, the names or prices of your dreams, or the times when you log.</p>
+<p>Statistics are tied to a random identifier created by the app. It is not your Apple ID and is not connected to your App Store account or to the anonymous ID that RevenueCat uses for purchases, and our server stores it only as a salted hash. Your IP address is used for a moment to limit how often a device can send, and is not saved. We store the date of each event, not the time of day. We cannot tell who you are from this data. While statistics are on, the identifier is shown in Settings › Usage stats (Analytics ID). To have statistics already sent deleted, send it to us via Support and we will delete all events with it.</p>
 <p>In the EU, EEA, United Kingdom and Switzerland, statistics are off until you turn them on during setup, and we process them only with this consent. Elsewhere they are on by default, and the setup screen says so. Everywhere you can turn them off in Settings › Usage stats. This stops the statistics and deletes the identifier and anything not yet sent from your device.</p>
 <p>Statistics are kept for up to 25 months and then deleted automatically.</p>
 
@@ -72,7 +74,7 @@
 <ul>
 <li>We don't sell or share your data.</li>
 <li>We don't show ads in the app and don't track you across other apps and websites, so the app does not ask for permission to track you.</li>
-<li>We don't combine the statistics with your purchases or any other data about you.</li>
+<li>We don't combine the statistics with RevenueCat's purchase records or with anything else that identifies you.</li>
 </ul>
 
 <h2>Health information</h2>
