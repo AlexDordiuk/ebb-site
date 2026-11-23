@@ -47,7 +47,7 @@
 <p>Ebb may be advertised in App Store search results (Apple Ads). To see which campaigns and search terms bring people to Ebb, the app sends RevenueCat, once per install, an attribution token from Apple's AdServices framework. With it, RevenueCat learns from Apple whether the install came from an Ebb ad and, if so, the campaign, ad group and search term. The token contains no advertising identifier (IDFA) and nothing about who you are. This is not tracking, so the app does not ask for permission to track you.</p>
 
 <h2>Anonymous usage statistics</h2>
-<p>To learn which features help and where the app needs work, Ebb can send anonymous usage statistics to <a href="https://telemetrydeck.com/privacy">TelemetryDeck</a>, an analytics service from Germany (servers in Germany and the Netherlands).</p>
+<p>To learn which features help and where the app needs work, Ebb can send anonymous usage statistics to our own server (in.dordcorp.com). No third-party analytics service is involved. The server runs on <a href="https://www.cloudflare.com/privacypolicy/">Cloudflare</a> (Workers and D1), which processes the data on our behalf; the database is located in the EU.</p>
 <p>What is sent:</p>
 <ul>
 <li>that the app was opened on a given day, and which screens and features were used, such as the widget, Apple Watch, SOS exercises, charts or dreams. Features are sent as a summary the next day, not at the moment you use them;</li>
@@ -55,12 +55,12 @@
 <li>when the Pro offer is shown and whether a purchase was started, completed or cancelled, with the plan (yearly or lifetime), but not the price or payment details;</li>
 <li>what is set up: which Ebb widgets are installed, whether Ebb is on your Apple Watch, whether notifications and iCloud sync are on, the app icon and how many dreams you have (none, 1–3 or more);</li>
 <li>which notification you opened and which kinds of notifications you turned on or off;</li>
-<li>technical information: crash and freeze types reported by iOS, error codes, device model, iOS and app version, language, region setting and time zone.</li>
+<li>technical information: crash and freeze types reported by iOS, error codes, device type (iPhone or iPad, not the model), iOS and app version, language, the region setting and the country of your App Store account.</li>
 </ul>
 <p>What is never sent: your log entries, how many pouches you use, nicotine strength, prices, money saved, notes, cravings and their outcome, relapses, milestones, the names or prices of your dreams, or the times when you log.</p>
-<p>Statistics are tied to a random identifier created by the app. It is not your Apple ID, it is not linked to your purchases, and TelemetryDeck stores it only as a salted hash. TelemetryDeck does not store IP addresses. We cannot tell who you are from this data.</p>
+<p>Statistics are tied to a random identifier created by the app. It is not your Apple ID, it is not linked to your purchases, and our server stores it only as a salted hash. We do not store IP addresses or the time of day, only the date. We cannot tell who you are from this data. While statistics are on, the identifier is shown in Settings › Anonymous analytics (Analytics ID). To have statistics already sent deleted, send it to us via Support and we will delete all events with it.</p>
 <p>In the EU, EEA, United Kingdom and Switzerland, statistics are off until you turn them on during setup, and we process them only with this consent. Elsewhere they are on by default, and the setup screen says so. Everywhere you can turn them off in Settings › Anonymous analytics. This stops the statistics and deletes the identifier and anything not yet sent from your device.</p>
-<p>We see the statistics in TelemetryDeck for up to 24 months. TelemetryDeck may keep the anonymous raw events longer in its archive.</p>
+<p>Statistics are kept for up to 25 months and then deleted automatically.</p>
 
 <h2>App Store statistics</h2>
 <p>If you allowed sharing with app developers in iOS (Settings › Privacy &amp; Security › Analytics &amp; Improvements), Apple shares aggregated App Store statistics and crash reports with us. Apple decides what is included; see <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>.</p>
